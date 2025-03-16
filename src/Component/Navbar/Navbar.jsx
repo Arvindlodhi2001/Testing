@@ -1,6 +1,10 @@
 import React from "react";
 
 const Navbar = () => {
+  const SayHello = () => {
+    console.log("Hello Arvind Lodhi");
+  };
+
   return (
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light">
