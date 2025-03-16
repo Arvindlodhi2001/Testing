@@ -10,7 +10,7 @@ const initialData = [
     age: "age 1",
     gender: "gender 1",
     mobile: "mobile 1",
-    id: "1",
+    id: "1", // Hello  I am Arvind
   },
   {
     name: "name 2",
@@ -65,7 +65,7 @@ const CreatePerson = () => {
     setUsers([...users, { ...formData, id: users.length + 1 }]);
     setFormData({ name: "", email: "", age: "", gender: "", mobile: "" });
 
-    console.log("formData-->", formData); 
+    console.log("formData-->", formData);
   };
 
   return (
