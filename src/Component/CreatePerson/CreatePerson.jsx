@@ -10,7 +10,7 @@ const initialData = [
     age: "age 1",
     gender: "gender 1",
     mobile: "mobile 1",
-    id: "1", // Hello  I am Arvind
+    id: "1",
   },
   {
     name: "name 2",
